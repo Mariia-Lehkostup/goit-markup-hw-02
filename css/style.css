@@ -2,6 +2,7 @@
   --title-text-color: #212121;
   --text-color: #757575;
   --link-text-color: #2196f3;
+  --bcg-color: rgba(47, 48, 58, 0.8);
 }
 body {
   color: #000000;
@@ -71,6 +72,7 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  background-color: var(--link-text-color);
 }
 
 /* description of solutions */
@@ -115,6 +117,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  background-color: var(--bcg-color);
 }
 
 /* our team */
