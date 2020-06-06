@@ -1,25 +1,170 @@
+:root {
+  --title-text-color: #212121;
+  --text-color: #757575;
+  --link-text-color: #2196f3;
+}
 body {
   color: #000000;
 }
 ul {
   list-style: none;
 }
+
+/*logo  */
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
 .logo-web {
-  color: #2196f3;
+  color: var(--link-text-color);
 }
 .logo-st {
   color: #000000;
 }
 
 /* site-nav */
-.site-nav. link {
-  color: #212121;
+.site-nav .link {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
-.site-nav. link:hover {
-  color: #2196f3;
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--link-text-color);
 }
 
 /* commun-nav */
-.commun-nav {
-  color: #757575;
+.commun-nav .link {
+  color: var(--text-color);
 }
+.commun-nav .link:hover,
+.commun-nav .link:focus {
+  color: var(--link-text-color);
+}
+
+/* HERO */
+.hero .title {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero .link {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* description of solutions */
+.features .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.features .text {
+  color: var(--text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+/* our doin */
+.features-doing .title {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.features-doing .link {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* our team */
+.features-team .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.features-team .name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.features-team .profession {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.features-team .link {
+  color: #afb1b8;
+}
+.features-team .link:hover {
+  color: #2196f3;
+}
+
+/* customers */
+.customers .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+/* footer */
