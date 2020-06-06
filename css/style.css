@@ -7,3 +7,19 @@ ul {
 .logo-web {
   color: #2196f3;
 }
+.logo-st {
+  color: #000000;
+}
+
+/* site-nav */
+.site-nav. link {
+  color: #212121;
+}
+.site-nav. link:hover {
+  color: #2196f3;
+}
+
+/* commun-nav */
+.commun-nav {
+  color: #757575;
+}
