@@ -1,2 +1,9 @@
 body {
+  color: #000000;
+}
+ul {
+  list-style: none;
+}
+.logo-web {
+  color: #2196f3;
 }
