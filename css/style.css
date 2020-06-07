@@ -3,6 +3,8 @@
   --text-color: #757575;
   --link-text-color: #2196f3;
   --bcg-color: rgba(47, 48, 58, 0.8);
+  --bcg-btn-color: #2196f3;
+  --text-white-color: #ffffff;
 }
 body {
   color: #000000;
@@ -51,7 +53,7 @@ ul {
 
 /* HERO */
 .hero .title {
-  color: #ffffff;
+  color: var(--text-white-color);
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
@@ -62,7 +64,7 @@ ul {
   text-transform: uppercase;
 }
 .hero .link {
-  color: #ffffff;
+  color: var(--text-white-color);
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -171,3 +173,86 @@ ul {
 }
 
 /* footer */
+.footer {
+  background-color: #2f303a;
+}
+.logo-styd {
+  color: var(--text-white-color);
+}
+.address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.connect {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.title-connect {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-white-color);
+}
+.develop {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* portfolio.css */
+.hero-site .link {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.hero-site .link:hover,
+.hero-site .link:focus {
+  color: var(--text-white-color);
+  background-color: var(--bcg-btn-color);
+}
+.title-depiction {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.text-depiction {
+  color: var(--text-white-color);
+  background-color: var(--bcg-btn-color);
+}
+.title-depiction .text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
