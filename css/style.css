@@ -7,7 +7,6 @@
   --text-white-color: #ffffff;
 }
 body {
-  text-decoration: none;
   font-family: Roboto;
   color: #000000;
 }
@@ -88,46 +87,33 @@ ul {
 }
 .features .text {
   color: var(--text-color);
-  font-weight: normal;
-  font-size: 14px;
   line-height: 24px;
-  letter-spacing: 0.03em;
 }
 
 /* our doin */
 .features-doing .link {
   color: var(--text-white-color);
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
   text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   background-color: var(--bcg-color);
 }
 
 /* our team */
+.features-team {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
 .features-team .title {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
 }
 .features-team .name {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
 }
 .features-team .profession {
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
   color: var(--text-color);
 }
 .features-team .link {
@@ -154,17 +140,17 @@ ul {
 .logo-styd {
   color: var(--text-white-color);
 }
-.address {
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: var(--text-white-color);
-}
-.connect {
+
+.connect,
+.develop .address {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.address {
+  color: var(--text-white-color);
 }
 .title-connect {
   font-weight: bold;
@@ -175,10 +161,7 @@ ul {
   color: var(--text-white-color);
 }
 .develop {
-  font-size: 12px;
-  line-height: 24px;
   text-align: center;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.4);
 }
 
