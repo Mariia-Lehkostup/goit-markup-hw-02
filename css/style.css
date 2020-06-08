@@ -92,7 +92,6 @@ ul {
 /* our doin */
 .features-doing .link {
   color: var(--text-white-color);
-  text-align: center;
   background-color: var(--bcg-color);
 }
 
@@ -136,7 +135,8 @@ ul {
 .footer {
   background-color: #2f303a;
 }
-.logo-styd {
+.logo-styd,
+.address {
   color: var(--text-white-color);
 }
 
@@ -149,9 +149,7 @@ ul {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.address {
-  color: var(--text-white-color);
-}
+
 .title-connect {
   font-weight: bold;
   font-size: 14px;
@@ -175,7 +173,8 @@ ul {
   letter-spacing: 0.03em;
 }
 .hero-site .link:hover,
-.hero-site .link:focus {
+.hero-site .link:focus,
+.text-depiction {
   color: var(--text-white-color);
   background-color: var(--bcg-btn-color);
 }
@@ -185,10 +184,6 @@ ul {
   line-height: 36px;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
-}
-.text-depiction {
-  color: var(--text-white-color);
-  background-color: var(--bcg-btn-color);
 }
 .title-depiction .text {
   font-size: 16px;
