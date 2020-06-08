@@ -77,6 +77,7 @@ ul {
 }
 
 /* description of solutions */
+.features-doing .title,
 .features .title {
   font-weight: bold;
   font-size: 14px;
@@ -94,14 +95,6 @@ ul {
 }
 
 /* our doin */
-.features-doing .title {
-  color: var(--title-text-color);
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
 .features-doing .link {
   color: var(--text-white-color);
   font-weight: bold;
@@ -131,7 +124,6 @@ ul {
   color: var(--title-text-color);
 }
 .features-team .profession {
-  font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
