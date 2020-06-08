@@ -5,10 +5,11 @@
   --bcg-color: rgba(166, 168, 184, 0.8);
   --bcg-btn-color: #2196f3;
   --text-white-color: #ffffff;
+  --text-black-color: #000000;
 }
 body {
   font-family: Roboto;
-  color: #000000;
+  color: var(--text-white-color);
 }
 ul {
   list-style: none;
@@ -28,7 +29,7 @@ ul {
   color: var(--link-text-color);
 }
 .logo-st {
-  color: #000000;
+  color: var(--text-black-color);
 }
 
 /* site-nav */
