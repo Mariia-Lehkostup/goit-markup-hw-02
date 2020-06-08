@@ -2,23 +2,28 @@
   --title-text-color: #212121;
   --text-color: #757575;
   --link-text-color: #2196f3;
-  --bcg-color: rgba(47, 48, 58, 0.8);
+  --bcg-color: rgba(166, 168, 184, 0.8);
   --bcg-btn-color: #2196f3;
   --text-white-color: #ffffff;
 }
 body {
+  text-decoration: none;
+  font-family: Roboto;
   color: #000000;
 }
 ul {
   list-style: none;
 }
-
+.link {
+  text-decoration: none;
+}
 /*logo  */
 .logo {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
+  text-decoration: none;
 }
 .logo-web {
   color: var(--link-text-color);
@@ -30,8 +35,6 @@ ul {
 /* site-nav */
 .site-nav .link {
   color: var(--title-text-color);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -54,8 +57,6 @@ ul {
 /* HERO */
 .hero .title {
   color: var(--text-white-color);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -65,8 +66,6 @@ ul {
 }
 .hero .link {
   color: var(--text-white-color);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
@@ -79,8 +78,6 @@ ul {
 
 /* description of solutions */
 .features .title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -90,8 +87,6 @@ ul {
 }
 .features .text {
   color: var(--text-color);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -101,8 +96,6 @@ ul {
 /* our doin */
 .features-doing .title {
   color: var(--title-text-color);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -110,9 +103,7 @@ ul {
   letter-spacing: 0.03em;
 }
 .features-doing .link {
-  color: #ffffff;
-  font-family: Roboto;
-  font-style: normal;
+  color: var(--text-white-color);
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -124,8 +115,6 @@ ul {
 
 /* our team */
 .features-team .title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -134,8 +123,6 @@ ul {
   color: var(--title-text-color);
 }
 .features-team .name {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -144,8 +131,6 @@ ul {
   color: var(--title-text-color);
 }
 .features-team .profession {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
@@ -157,13 +142,11 @@ ul {
   color: #afb1b8;
 }
 .features-team .link:hover {
-  color: #2196f3;
+  color: var(--link-text-color);
 }
 
 /* customers */
 .customers .title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -180,26 +163,18 @@ ul {
   color: var(--text-white-color);
 }
 .address {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--text-white-color);
 }
 .connect {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .title-connect {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -208,9 +183,6 @@ ul {
   color: var(--text-white-color);
 }
 .develop {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 12px;
   line-height: 24px;
   text-align: center;
@@ -221,8 +193,6 @@ ul {
 /* portfolio.css */
 .hero-site .link {
   color: var(--title-text-color);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -235,8 +205,6 @@ ul {
   background-color: var(--bcg-btn-color);
 }
 .title-depiction {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
@@ -248,11 +216,8 @@ ul {
   background-color: var(--bcg-btn-color);
 }
 .title-depiction .text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
 }
